@@ -55,6 +55,9 @@ else
 	LINUX_COMPILE_HOST=$KBUILD_BUILD_HOST
 fi
 
+LINUX_COMPILE_BY="Proton-Clang 23.5.21-ubuntu"
+LINUX_COMPILE_HOST="Moss->.<"
+
 UTS_VERSION="#$VERSION"
 CONFIG_FLAGS=""
 if [ -n "$SMP" ] ; then CONFIG_FLAGS="SMP"; fi
